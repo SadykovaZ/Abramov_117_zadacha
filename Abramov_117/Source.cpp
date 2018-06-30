@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<stdlib.h>
 #include<iostream>
 
@@ -10,9 +10,9 @@ int main()
 	int n=0;
 	double result = 1;
 
-	cout << "Çàäà÷à íîìåð 117 à)" << endl;
+	cout << "Ð—Ð°Ð´Ð°Ñ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 117 Ð°)" << endl;
 
-	cout << "Ââåäèòå N = " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ N = " << endl;
 	cin >> n;
 
 	for (int i = 1; i <= n; i++)
@@ -20,12 +20,12 @@ int main()
 		result *= (double)((2 * i) - 1) / (2 * i);
 	}
 	
-	cout << "Ðåçóëüòàò = "<<result << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ = "<<result << endl;
 
-	cout << "Çàäà÷à íîìåð 117 á)" << endl;
+	cout << "Ð—Ð°Ð´Ð°Ñ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 117 Ð±)" << endl;
 	int n1= 0;
 	double result1 = 1;
-	cout << "Ââåäèòå N = " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ N = " << endl;
 	cin >> n1;
 
 	for (int i = 1; i <= n1; i++)
@@ -33,9 +33,10 @@ int main()
 		result1 *= (double)((2 * i) - 1) / i;
 	}
 
-	cout << "Ðåçóëüòàò = " << result1 << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ = " << result1 << endl;
 
 	system("pause");
 	return 0;
+
 	
 }
